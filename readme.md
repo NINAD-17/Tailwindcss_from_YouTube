@@ -19,3 +19,8 @@
 
 ## postcss.config
 - postcss.config file will see tailwind.config file and then observe all the    files which are included in content: [] then it will bring only those css classes which are used in those files to styles.css
+
+## Square Bracket Notation
+- It's used to put custom values. Means if any value such as margin = 148px is missing in tailwind but you want it then you can use square bracket notation.
+- Don't use square bracket notation always. Because we want to minimize our production bundle. If we use square bracket notation then that css will be added to styles and it increases the production bundle. It means if you use `mx-[67]` and change `67` to other values and use it multiple times then that much css will added to `styles.css`. You can see it in `inspect tab -> styles.css`.
+

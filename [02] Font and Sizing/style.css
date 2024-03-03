@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* postcss.config file will see tailwind.config file and then observe all the files which are included in content: [] 
+    then it will bring only those css classes which are used in those files to styles.css
+*/

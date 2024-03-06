@@ -68,3 +68,6 @@ NOTE:
         },
     
 - As in default spacing of tailwind there is no 13 so we add it manually.
+
+
+When you're working with Tailwind then make your project by mobile first approach. It means first design your pages for mobile devices and as breakpoints will hit you can support more device designs.

@@ -51,7 +51,7 @@
 - Here btn class will add at the end of components layer.
 
 NOTE: 
-- Don't use layer and apply directories when there's no need. Means if you're using a style more than 6 times then it's okay but don't use this to create style of only one component.
+- Don't use `layer` and `apply` directories when there's no need. Means if you're using a style more than 6 times then it's okay but don't use this to create style of only one component.
 - When you use layer and apply directories then remember that you're doing it with a cost of maintainibility. It's difficult to maintain code when you use layer and apply directories. Because you constantly need to look for styles.css file.
 - Don't over use it.
 

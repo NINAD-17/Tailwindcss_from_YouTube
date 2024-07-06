@@ -1,8 +1,8 @@
-
+# Tailwindcss
 
 - Tailwind changed all to write css. Now writing css code is faster, maintainable, and optimized also.
 - Tailwind is a utility framework. It means we write all css code using classes.
-- When we use bootstrap and others then they ships all css in production means unused css also.
+- **When we use bootstrap and others then they ships all css in production means unused css also**. But tailwind doesn't do it.
 - Tailwind follows mobile first approach.
 
 - We're making two folders 
